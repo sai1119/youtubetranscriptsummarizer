@@ -1,0 +1,19 @@
+In config.py need to add api before execution
+
+For OpenAI API 
+https://platform.openai.com/account/api-keys
+
+Register and create API Key
+
+For Youtube API
+
+https://console.cloud.google.com/apis/api/youtube.googleapis.com/credentials?project=complete-kite-306018&pli=1
+
+Register and create new project and enable the API 
+in Google Developer Console
+https://console.cloud.google.com/welcome?project=complete-kite-306018
+
+For Sending the message in Whatsapp Takes 1hr 45min 27sec
+so try to avoid or do atlasts
+
+Add the phone number for whatsapp chat in app.py line 204

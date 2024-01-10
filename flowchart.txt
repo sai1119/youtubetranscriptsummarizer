@@ -1,0 +1,32 @@
+
+1. Importing the Packages
+2. Flask Framework with Sqlite for signup and signin
+3. Function for Signup and Signin
+4. Funcion for Summarization
+	- Getting Youtube Api from Config file
+	- Get the Video URL from the html(frontend)
+	- Extraction of Video ID from URl
+	- Make request to YouTube API to get video details
+	- Extract video title and description
+	- Extract video transcript
+	- Break if transcript exceeds 2048 tokens
+	- Initialize OpenAI API key
+	- Create prompt for GPT-3 (Transformer HUB)
+	- Extract summary from completion created by model
+	- Remove any extra newline '\n' characters
+
+5. Function for Speech
+	- Getting the Summary from summarization funcation
+	- Converting the text to speech
+	- saving and playing the seech
+6. Function for Translatoin
+	- Getting the Summary from summarization funcation
+	- Converting the summary based on the langauage selected
+	- Displaying the outcome
+7. Function for Download
+	- Getting the Summary from summarization funcation
+	- Based on the selection the summary is saved in the different format
+8. Function for Sending Message
+		- Through WhatsApp which takes 1hr 45min 
+
+9. Displaying the final outcome.
